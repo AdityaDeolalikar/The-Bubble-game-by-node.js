@@ -1,0 +1,96 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  height: 100%;
+  width: 100%;
+}
+#element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: "Kanit", sans-serif;
+  height: 60px;
+  background-color: rgb(15, 19, 46);
+  color: white;
+}
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100%; */
+  height: calc(100% - 6px);
+  width: 100%;
+  background-color: rgb(31, 37, 77);
+}
+
+#panel {
+  overflow: hidden;
+  height: 80%;
+  width: 80%;
+  border-radius: 10px;
+  background-color: white;
+}
+
+#ptop {
+  display: flex;
+  padding: 0px 20%;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  height: 55px;
+  width: 100%;
+  background-color: rgb(76, 68, 109);
+}
+
+#elem {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#elem h2 {
+  font-weight: 300;
+}
+
+.box {
+  background-color: white;
+  font-weight: 700;
+  padding: 10px;
+  color: rgb(76, 68, 109);
+  border-radius: 5px;
+}
+
+#pbtm {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 100%;
+  height: calc(100% - 100px);
+  align-items: center;
+  justify-content: center;
+}
+
+.bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(63, 63, 74);
+  color: white;
+  border-radius: 50%;
+}
+
+.bubble:hover {
+  background-color: rgb(76, 68, 109);
+  cursor: pointer;
+  animation: reverse;
+}
